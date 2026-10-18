@@ -44,9 +44,10 @@ Robotics: ArduPilot, MAVLink, ROS 2, GNSS/RTK
 
 ## Away from the keyboard
 
-Skateboarding, early morning surf sessions, and guitar.
+Skateboarding ([cysk8clips.com](https://cysk8clips.com)), early morning surf sessions, and guitar.
 
 ## Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-nadiotis-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nadiotis)
 [![Website](https://img.shields.io/badge/Website-pelaos--tech-111111?style=flat&logo=githubpages&logoColor=white)](https://n0711.github.io/pelaos-tech/)
+[![cysk8clips](https://img.shields.io/badge/Website-cysk8clips.com-111111?style=flat&logo=googlechrome&logoColor=white)](https://cysk8clips.com)
