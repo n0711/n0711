@@ -1,4 +1,6 @@
-# Hi, I'm Charalampos 👋
+# Charalampos Nadiotis
+
+Robotics engineer · software builder · Cyprus
 
 Robotics engineer in Limassol, Cyprus. I write software for robots and spend a good part of my time testing it outdoors.
 
@@ -7,6 +9,26 @@ Robotics engineer in Limassol, Cyprus. I write software for robots and spend a g
 - 🔬 Thesis on multi-object tracking in aerial video ([vera-mot](https://github.com/n0711/vera-mot))
 - 🎯 Heading toward an MSc and PhD in robotics and autonomous systems
 - 🏆 Judge and scientific committee member for robotics competitions in Cyprus (Robotex, WRO)
+
+## Explore my work
+
+| Project | What it helps with | Current status |
+| --- | --- | --- |
+| [cysk8clips](https://cysk8clips.com) | Find Cyprus skate footage, stories and public spots | Live community website |
+| [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | Tune string instruments with an offline Android app | Pre-release; physical-device validation pending |
+| [LearnTwin](https://github.com/n0711/LearnTwin#start-the-planner) | Organise degree progress, study work and PhD applications | Open-source browser-local planner |
+| [PELAOS](https://n0711.github.io/pelaos-tech/) | Explore my software projects and research | Rust/Dart project portfolio |
+
+## Work with me
+
+I take on focused website, software and automation projects through **PELAOS**.
+A useful starting point is one business landing page: mobile layout, supplied
+content, clear contact links and one revision. We agree the scope, timing and
+price before work starts.
+
+[Discuss a project on LinkedIn](https://www.linkedin.com/in/nadiotis/) — tell me
+who it is for, what needs to improve and your target date. Remote work; project
+fit and availability are confirmed individually.
 
 ## What I've worked on
 
@@ -29,7 +51,7 @@ Receive-only ground control station prototype. Live link diagnostics and offline
 My website. Rust renders every page at build time, Dart adds the interactive parts, and GitHub Actions deploys it to Pages.
 
 **[LearnTwin](https://github.com/n0711/LearnTwin)** · Python\
-Open-source learning analytics core that turns classroom data into insights for teachers. Started at a hackathon and open to collaborators.
+Open-source workspace for degree progress, study planning and PhD application preparation, with browser-local records and JSON backups. It also retains the earlier classroom-feedback prototype and Python learning-analytics library; classroom dashboards use simulated data.
 
 **[Skillshare-Local](https://github.com/n0711/Skillshare-Local)** · PHP\
 Web marketplace connecting local instructors and learners for eco-friendly skill sessions.
