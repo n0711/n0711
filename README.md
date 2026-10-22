@@ -15,7 +15,7 @@ Robotics engineer in Limassol, Cyprus. I write software for robots and spend a g
 | Project | What it helps with | Current status |
 | --- | --- | --- |
 | [cysk8clips](https://cysk8clips.com) | Find Cyprus skate footage, stories and public spots | Live community website |
-| [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | Tune string instruments with an offline Android app | Pre-release; physical-device validation pending |
+| [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | Tune string instruments with an offline Android app | Pre-release, physical-device validation pending |
 | [LearnTwin](https://github.com/n0711/LearnTwin#start-the-planner) | Organise degree progress, study work and PhD applications | Open-source browser-local planner |
 | [PELAOS](https://n0711.github.io/pelaos-tech/) | Explore my software projects and research | Rust/Dart project portfolio |
 
@@ -26,9 +26,9 @@ A useful starting point is one business landing page: mobile layout, supplied
 content, clear contact links and one revision. We agree the scope, timing and
 price before work starts.
 
-[Discuss a project on LinkedIn](https://www.linkedin.com/in/nadiotis/) — tell me
-who it is for, what needs to improve and your target date. Remote work; project
-fit and availability are confirmed individually.
+[Discuss a project on LinkedIn](https://www.linkedin.com/in/nadiotis/) and tell me
+who it is for, what needs to improve and your target date. I work remotely, and
+project fit and availability are confirmed individually.
 
 ## What I've worked on
 
@@ -51,7 +51,7 @@ Receive-only ground control station prototype. Live link diagnostics and offline
 My website. Rust renders every page at build time, Dart adds the interactive parts, and GitHub Actions deploys it to Pages.
 
 **[LearnTwin](https://github.com/n0711/LearnTwin)** · Python\
-Open-source workspace for degree progress, study planning and PhD application preparation, with browser-local records and JSON backups. It also retains the earlier classroom-feedback prototype and Python learning-analytics library; classroom dashboards use simulated data.
+Open-source workspace for degree progress, study planning and PhD application preparation, with browser-local records and JSON backups. It also keeps the earlier classroom-feedback prototype, whose dashboards use simulated data, and a Python learning-analytics library.
 
 **[Skillshare-Local](https://github.com/n0711/Skillshare-Local)** · PHP\
 Web marketplace connecting local instructors and learners for eco-friendly skill sessions.
