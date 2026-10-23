@@ -19,6 +19,12 @@ Robotics engineer in Limassol, Cyprus. I write software for robots and spend a g
 | [LearnTwin](https://github.com/n0711/LearnTwin#start-the-planner) | Organise degree progress, study work and PhD applications | Open-source browser-local planner |
 | [PELAOS](https://n0711.github.io/pelaos-tech/) | Explore my software projects and research | Rust/Dart project portfolio |
 
+PELAOS also hosts RioTuner's product page, testing guide and privacy policy.
+[Vercel deployment support](https://github.com/n0711/pelaos-tech/blob/main/docs/DEPLOYMENT.md)
+is prepared in the portfolio repository. The existing published links above
+remain in use until a Vercel production address is verified. RioTuner is a
+native Android app; publishing its website does not publish an APK or a Play listing.
+
 ## Work with me
 
 I take on focused website, software and automation projects through **PELAOS**.
@@ -48,7 +54,7 @@ Emulates an autopilot in software with ArduRover SITL, MAVLink2REST and a JSON t
 Receive-only ground control station prototype. Live link diagnostics and offline ArduPilot parameter diffing, with command authority locked out on purpose.
 
 **[pelaos-tech](https://github.com/n0711/pelaos-tech)** · Rust, Dart\
-My website. Rust renders every page at build time, Dart adds the interactive parts, and GitHub Actions deploys it to Pages.
+My project portfolio and RioTuner website. Rust renders complete pages at build time and Dart adds the interactive depth slider. The repository supports GitHub Pages and root-path Vercel builds, with hosting-specific metadata and privacy information.
 
 **[LearnTwin](https://github.com/n0711/LearnTwin)** · Python\
 Open-source workspace for degree progress, study planning and PhD application preparation, with browser-local records and JSON backups. It also keeps the earlier classroom-feedback prototype, whose dashboards use simulated data, and a Python learning-analytics library.
