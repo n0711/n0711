@@ -14,6 +14,7 @@ Robotics engineer in Limassol, Cyprus. I write software for robots and spend a g
 
 | Project | What it helps with | Current status |
 | --- | --- | --- |
+| [ROS3-Limassol](https://github.com/n0711/ROS3-Limassol) | Monitor telemetry arrival, detect communication blackouts and record/replay recovery | OpenPELAOS research prototype; field testing pending |
 | [cysk8clips](https://cysk8clips.com) | Find Cyprus skate footage, stories and public spots | Live community website |
 | [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | Tune string instruments with an offline Android app | Pre-release, physical-device validation pending |
 | [LearnTwin](https://github.com/n0711/LearnTwin#start-the-planner) | Organise degree progress, study work and PhD applications | Open-source browser-local planner |
@@ -43,6 +44,10 @@ At ADDITESS I was the only computer scientist on a small engineering team, so so
 On the research side I care about autonomy that holds up outside the lab: perception, tracking, SLAM, multi-robot coordination and ROS 2.
 
 ## Projects
+
+**[ROS3-Limassol](https://github.com/n0711/ROS3-Limassol)** · Python, experimental Rust, ROS 2\
+OpenPELAOS project for telemetry arrival-liveness monitoring in intermittently connected robotic systems. Includes offline JSONL recording/replay, deterministic synthetic blackout/recovery tests and optional ROS 2 Humble/Jazzy adapters. Physical robotic-platform validation remains pending; this is not an official ROS release. **Original idea: Christos Paparistodemou. Project lead and paper author: Charalampos Nadiotis.**
+
 
 **[vera-mot](https://github.com/n0711/vera-mot)** · Python\
 Multi-object tracking research on aerial video. YOLOX and BoT-SORT on a public aerial benchmark, with a frozen, reproducible baseline (HOTA 43.3, IDF1 57.0 across 20 sequences). The open question is when vehicle ReID embeddings can be trusted for association.
