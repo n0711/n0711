@@ -46,6 +46,8 @@ On the research side I care about autonomy that holds up outside the lab: percep
 ## Projects
 
 **[ROS3-Limassol](https://github.com/n0711/ROS3-Limassol)** · Python, experimental Rust, ROS 2\
+[PELAOS project overview](https://n0711.github.io/pelaos-tech/ros3-limassol/) · [Source, tests and research paper](https://github.com/n0711/ROS3-Limassol)
+
 OpenPELAOS project for telemetry arrival-liveness monitoring in intermittently connected robotic systems. Includes offline JSONL recording/replay, deterministic synthetic blackout/recovery tests and optional ROS 2 Humble/Jazzy adapters. Physical robotic-platform validation remains pending; this is not an official ROS release. **Original idea: Christos Paparistodemou. Project lead and paper author: Charalampos Nadiotis.**
 
 
