@@ -1,17 +1,17 @@
 # Charalampos Nadiotis
 
-**Robotics Researcher & Software Engineer | Marine Robotics · Resilient Autonomous Systems · Perception**
+**Researcher & Software Engineer | Wireless Power Transfer · Simultaneous Wireless Information and Power Transfer · Distributed Systems**
 
-Based in Cyprus. I develop and evaluate robotic software for field and marine platforms, with particular interests in USVs/ROVs, communication-resilient telemetry, distributed coordination, perception, and reproducible simulation-to-field validation.
+Based in Cyprus. My intended PhD research direction is Tesla-inspired wireless transmission: wireless power transfer, transmitting energy and information over shared wireless links, and the efficiency, reliability, and practical limits of these systems. My professional background includes robotics integration, resilient communications, and reproducible software validation.
 
 - 🎓 **BSc Computer Science**, Frederick University (expected 2027)
-- 🔬 **Research:** marine robotic systems, intermittent communications, fault diagnosis, multi-agent coordination and tracking
+- 🔬 **Research direction:** wireless power transfer (WPT), simultaneous wireless information and power transfer (SWIPT), energy-constrained networks, and experimental validation
 - 🛠️ **Previously Robotics Researcher / Engineer at ADDITESS** (Mar–Oct 2026), integrating software for UAV, USV and ROV platforms
 - 🤖 **Previously Junior Robotics & Automation Researcher / Engineer**, Frederick University RAS Lab (May 2025–Mar 2026)
 - 🏆 **Scientific committee member and robotics competition judge**, Robotex Cyprus and WRO Cyprus
 - 📄 [Research portfolio](https://n0711.github.io/pelaos-tech/) · [LinkedIn](https://www.linkedin.com/in/nadiotis/)
 
-**Current direction:** pursuing funded PhD research in robotics and autonomous systems, particularly marine robotics. Research prototypes below are described according to their demonstrated validation status.
+**Current direction:** pursuing funded PhD research on Tesla-inspired wireless energy transmission and combined wireless power/data systems. This is a proposed research direction, not a claim of experimentally demonstrated long-range power transmission. Research prototypes below are described according to their demonstrated validation status.
 
 ## Explore my work
 
@@ -46,7 +46,7 @@ project fit and availability are confirmed individually.
 
 **Frederick University RAS Lab — Junior Robotics & Automation Researcher / Engineer (May 2025–Mar 2026).** Supported rover and ROV integration, embedded controllers, motor-response and fail-safe testing, underwater imaging, data acquisition and deployment preparation.
 
-My research interests include marine robotics (USVs and ROVs), telemetry reliability under intermittent connectivity, fault diagnosis, multi-agent coordination, aerial perception and tracking, and reproducible testing. I distinguish synthetic benchmark results from physical or field validation.
+My forward-looking research interests center on wireless energy transfer and joint power/data transmission, including efficiency, coupling, communication performance, energy constraints, safety, and reproducible experimental evaluation. My existing robotics work includes telemetry reliability under intermittent connectivity, fault diagnosis, multi-agent coordination, aerial perception and tracking. I distinguish synthetic benchmark results from physical or field validation.
 
 ## Projects
 
