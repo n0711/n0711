@@ -1,14 +1,17 @@
 # Charalampos Nadiotis
 
-Robotics engineer · software builder · Cyprus
+**Robotics Researcher & Software Engineer | Marine Robotics · Resilient Autonomous Systems · Perception**
 
-Robotics engineer in Limassol, Cyprus. I write software for robots and spend a good part of my time testing it outdoors.
+Based in Cyprus. I develop and evaluate robotic software for field and marine platforms, with particular interests in USVs/ROVs, communication-resilient telemetry, distributed coordination, perception, and reproducible simulation-to-field validation.
 
-- 🛠️ Previously Robotics Engineer at **ADDITESS**, working on field robotics and autonomy integration
-- 🎓 BSc Computer Science at **Frederick University**
-- 🔬 Thesis on multi-object tracking in aerial video ([vera-mot](https://github.com/n0711/vera-mot))
-- 🎯 Heading toward an MSc and PhD in robotics and autonomous systems
-- 🏆 Judge and scientific committee member for robotics competitions in Cyprus (Robotex, WRO)
+- 🎓 **BSc Computer Science**, Frederick University (expected 2027)
+- 🔬 **Research:** marine robotic systems, intermittent communications, fault diagnosis, multi-agent coordination and tracking
+- 🛠️ **Previously Robotics Researcher / Engineer at ADDITESS** (Mar–Oct 2026), integrating software for UAV, USV and ROV platforms
+- 🤖 **Previously Junior Robotics & Automation Researcher / Engineer**, Frederick University RAS Lab (May 2025–Mar 2026)
+- 🏆 **Scientific committee member and robotics competition judge**, Robotex Cyprus and WRO Cyprus
+- 📄 [Research portfolio](https://n0711.github.io/pelaos-tech/) · [LinkedIn](https://www.linkedin.com/in/nadiotis/)
+
+**Current direction:** pursuing funded PhD research in robotics and autonomous systems, particularly marine robotics. Research prototypes below are described according to their demonstrated validation status.
 
 ## Explore my work
 
@@ -37,11 +40,13 @@ price before work starts.
 who it is for, what needs to improve and your target date. I work remotely, and
 project fit and availability are confirmed individually.
 
-## What I've worked on
+## Research and engineering experience
 
-At ADDITESS I was the only computer scientist on a small engineering team, so software, networking and vision all ended up on my desk. That meant MAVLink and ArduPilot integration, embedded control, telemetry and video links, mission planning, and plenty of debugging in the field.
+**ADDITESS, Cyprus — Robotics Researcher / Engineer (Mar–Oct 2026).** Integrated software for UAV, USV and ROV systems; developed a Linux-first receive-only telemetry prototype (Flutter, Rust, Python/MAVLink); investigated controller, companion-computer, sensor and network faults using repeatable tests.
 
-On the research side I care about autonomy that holds up outside the lab: perception, tracking, SLAM, multi-robot coordination and ROS 2.
+**Frederick University RAS Lab — Junior Robotics & Automation Researcher / Engineer (May 2025–Mar 2026).** Supported rover and ROV integration, embedded controllers, motor-response and fail-safe testing, underwater imaging, data acquisition and deployment preparation.
+
+My research interests include marine robotics (USVs and ROVs), telemetry reliability under intermittent connectivity, fault diagnosis, multi-agent coordination, aerial perception and tracking, and reproducible testing. I distinguish synthetic benchmark results from physical or field validation.
 
 ## Projects
 
@@ -68,6 +73,12 @@ Open-source workspace for degree progress, study planning and PhD application pr
 
 **[Skillshare-Local](https://github.com/n0711/Skillshare-Local)** · PHP\
 Web marketplace connecting local instructors and learners for eco-friendly skill sessions.
+
+## Selected research output
+
+- **The OpenPELAOS Civilian-Use Licence: Design, Scope and Limits of a Non-Military Reuse Policy** — position paper / preprint, 25 October 2026; **not peer reviewed**.
+- **ROS3-Limassol:** synthetic blackout/recovery and receive-arrival evidence are available; physical platform validation remains pending.
+- **VERA-MOT:** evaluation on 20 UAVDT test sequences using tracking metrics including HOTA, CLEAR and Identity.
 
 ## Tools
 
