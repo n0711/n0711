@@ -1,103 +1,41 @@
 # Charalampos Nadiotis
 
-**Researcher & Software Engineer | Wireless Power Transfer · Simultaneous Wireless Information and Power Transfer · Distributed Systems**
+**Robotics engineer in Cyprus · BSc Computer Science student at Frederick University**
 
-Based in Cyprus. My intended PhD research direction is Tesla-inspired wireless transmission: wireless power transfer, transmitting energy and information over shared wireless links, and the efficiency, reliability, and practical limits of these systems. My professional background includes robotics integration, resilient communications, and reproducible software validation.
+I work on how robots behave when their sensors or communication links give them incomplete information. On rovers and underwater vehicles, my work has included bringing up embedded controllers, testing motor response and calibrating underwater cameras. My goal is to pursue a PhD in marine robotics, with a focus on sensing and autonomy for field deployments.
 
-- 🎓 **BSc Computer Science**, Frederick University (expected 2027)
-- 🔬 **Research direction:** wireless power transfer (WPT), simultaneous wireless information and power transfer (SWIPT), energy-constrained networks, and experimental validation
-- 🛠️ **Previously Robotics Researcher / Engineer at ADDITESS** (Mar–Oct 2026), integrating software for UAV, USV and ROV platforms
-- 🤖 **Previously Junior Robotics & Automation Researcher / Engineer**, Frederick University RAS Lab (May 2025–Mar 2026)
-- 🏆 **Scientific committee member and robotics competition judge**, Robotex Cyprus and WRO Cyprus
-- 📄 [Research portfolio](https://n0711.github.io/pelaos-tech/) · [LinkedIn](https://www.linkedin.com/in/nadiotis/)
+[PELAOS Tech portfolio](https://n0711.github.io/pelaos-tech/) · [LinkedIn](https://www.linkedin.com/in/nadiotis/)
 
-**Current direction:** pursuing funded PhD research on Tesla-inspired wireless energy transmission and combined wireless power/data systems. This is a proposed research direction, not a claim of experimentally demonstrated long-range power transmission. Research prototypes below are described according to their demonstrated validation status.
+## Research projects
 
-## Explore my work
-
-| Project | What it helps with | Current status |
+| Project | Research question | Evidence in the repository |
 | --- | --- | --- |
-| [ROS3-Limassol](https://github.com/n0711/ROS3-Limassol) | Monitor telemetry arrival, detect communication blackouts and record/replay recovery | OpenPELAOS research prototype; field testing pending |
-| [cysk8clips](https://cysk8clips.com) | Find Cyprus skate footage, stories and public spots | Live community website |
-| [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | Tune string instruments with an offline Android app | Pre-release, physical-device validation pending |
-| [LearnTwin](https://github.com/n0711/LearnTwin#start-the-planner) | Organise degree progress, study work and PhD applications | Open-source browser-local planner |
-| [PELAOS](https://n0711.github.io/pelaos-tech/) | Explore my software projects and research | Rust/Dart project portfolio |
+| [ROS3-Limassol](https://github.com/n0711/ROS3-Limassol) | When did telemetry stop reaching the receiver, and when did it resume? | Records receiver observations and replays them offline. Synthetic blackout and recovery tests exercise the monitor, with optional ROS 2 integration. |
+| [VERA-MOT](https://github.com/n0711/vera-mot) | When can a tracker trust a vehicle’s appearance to reconnect its track after an occlusion? | The frozen BoT-SORT baseline without re-identification covers 20 UAVDT test sequences. The appearance-based extension has synthetic tests. Its effect on real vehicle identity metrics is still open. |
+| [BSc thesis](https://github.com/n0711/bsc_thesis_2027) | How does changing one symbol affect a prompt’s score, and how well can search recover the best prompt within a fixed budget? | The Python experiments compare search methods against exact optima on a finite synthetic objective. The repository includes the XeLaTeX dissertation and reproduction commands. |
 
-PELAOS also hosts RioTuner's product page, testing guide and privacy policy.
-[Vercel deployment support](https://github.com/n0711/pelaos-tech/blob/main/docs/DEPLOYMENT.md)
-is prepared in the portfolio repository. The existing published links above
-remain in use until a Vercel production address is verified. RioTuner is a
-native Android app; publishing its website does not publish an APK or a Play listing.
+ROS3-Limassol is an experimental OpenPELAOS project. Christos Paparistodemou proposed the original idea. I lead the project and authored the paper.
+
+## Robotics and field experience
+
+At Frederick University’s Robotics & Automation Systems Lab, I worked on rover and ROV integration, underwater imaging, data acquisition and deployment preparation. I also served as a scientific committee member and robotics competition judge for Robotex Cyprus and WRO Cyprus.
+
+- [USV flight-controller emulator](https://github.com/n0711/usv-sitl-flight-controller-emulator) · An ArduRover software-in-the-loop setup that lets developers exercise a telemetry interface before connecting a physical controller.
+- [MAVLink ground-station lab](https://github.com/n0711/mavlink_gcs_lab) · A receive-only Flutter and Rust prototype for inspecting live links and comparing saved ArduPilot parameters.
+
+## Software and community projects
+
+| Project | What I built |
+| --- | --- |
+| [LearnTwin](https://github.com/n0711/LearnTwin) | A browser-based workspace for tracking degree credits, assignments, thesis milestones and PhD applications, with local records and JSON backups. |
+| [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | An offline Android tuner for string instruments. |
+| [cysk8clips](https://cysk8clips.com) | A community site documenting Cyprus skateboarding through videos, local spots and event coverage. |
+| [Skillshare-Local](https://github.com/n0711/Skillshare-Local) | A PHP marketplace connecting local instructors and learners. |
 
 ## Work with me
 
-I take on focused website, software and automation projects through **PELAOS**.
-A useful starting point is one business landing page: mobile layout, supplied
-content, clear contact links and one revision. We agree the scope, timing and
-price before work starts.
+Through [PELAOS Tech](https://n0711.github.io/pelaos-tech/), I build websites, software and automations. For a project enquiry or a research collaboration, [message me on LinkedIn](https://www.linkedin.com/in/nadiotis/) with what you’re working on.
 
-[Discuss a project on LinkedIn](https://www.linkedin.com/in/nadiotis/) and tell me
-who it is for, what needs to improve and your target date. I work remotely, and
-project fit and availability are confirmed individually.
+Outside engineering, I skateboard, surf and play guitar.
 
-## Research and engineering experience
-
-**ADDITESS, Cyprus — Robotics Researcher / Engineer (Mar–Oct 2026).** Integrated software for UAV, USV and ROV systems; developed a Linux-first receive-only telemetry prototype (Flutter, Rust, Python/MAVLink); investigated controller, companion-computer, sensor and network faults using repeatable tests.
-
-**Frederick University RAS Lab — Junior Robotics & Automation Researcher / Engineer (May 2025–Mar 2026).** Supported rover and ROV integration, embedded controllers, motor-response and fail-safe testing, underwater imaging, data acquisition and deployment preparation.
-
-My forward-looking research interests center on wireless energy transfer and joint power/data transmission, including efficiency, coupling, communication performance, energy constraints, safety, and reproducible experimental evaluation. My existing robotics work includes telemetry reliability under intermittent connectivity, fault diagnosis, multi-agent coordination, aerial perception and tracking. I distinguish synthetic benchmark results from physical or field validation.
-
-## Projects
-
-**[ROS3-Limassol](https://github.com/n0711/ROS3-Limassol)** · Python, experimental Rust, ROS 2\
-[PELAOS project overview](https://n0711.github.io/pelaos-tech/ros3-limassol/) · [Source, tests and research paper](https://github.com/n0711/ROS3-Limassol)
-
-OpenPELAOS project for telemetry arrival-liveness monitoring in intermittently connected robotic systems. Includes offline JSONL recording/replay, deterministic synthetic blackout/recovery tests and optional ROS 2 Humble/Jazzy adapters. Physical robotic-platform validation remains pending; this is not an official ROS release. **Original idea: Christos Paparistodemou. Project lead and paper author: Charalampos Nadiotis.**
-
-
-**[vera-mot](https://github.com/n0711/vera-mot)** · Python\
-Multi-object tracking research on aerial video. YOLOX and BoT-SORT on a public aerial benchmark, with a frozen, reproducible baseline (HOTA 43.3, IDF1 57.0 across 20 sequences). The open question is when vehicle ReID embeddings can be trusted for association.
-
-**[usv-sitl-flight-controller-emulator](https://github.com/n0711/usv-sitl-flight-controller-emulator)** · Shell, Python\
-Emulates an autopilot in software with ArduRover SITL, MAVLink2REST and a JSON telemetry bridge. Built so an autonomy team could develop against the controller without needing the physical hardware.
-
-**[mavlink_gcs_lab](https://github.com/n0711/mavlink_gcs_lab)** · Flutter, Rust\
-Receive-only ground control station prototype. Live link diagnostics and offline ArduPilot parameter diffing, with command authority locked out on purpose.
-
-**[pelaos-tech](https://github.com/n0711/pelaos-tech)** · Rust, Dart\
-My project portfolio and RioTuner website. Rust renders complete pages at build time and Dart adds the interactive depth slider. The repository supports GitHub Pages and root-path Vercel builds, with hosting-specific metadata and privacy information.
-
-**[LearnTwin](https://github.com/n0711/LearnTwin)** · Python\
-Open-source workspace for degree progress, study planning and PhD application preparation, with browser-local records and JSON backups. It also keeps the earlier classroom-feedback prototype, whose dashboards use simulated data, and a Python learning-analytics library.
-
-**[Skillshare-Local](https://github.com/n0711/Skillshare-Local)** · PHP\
-Web marketplace connecting local instructors and learners for eco-friendly skill sessions.
-
-## Selected research output
-
-- **The OpenPELAOS Civilian-Use Licence: Design, Scope and Limits of a Non-Military Reuse Policy** — position paper / preprint, 25 October 2026; **not peer reviewed**.
-- **ROS3-Limassol:** synthetic blackout/recovery and receive-arrival evidence are available; physical platform validation remains pending.
-- **VERA-MOT:** evaluation on 20 UAVDT test sequences using tracking metrics including HOTA, CLEAR and Identity.
-
-## Tools
-
-[![Languages](https://skillicons.dev/icons?i=cpp,c,py,rust,dart,lua,bash,js,php&perline=9)](https://skillicons.dev)
-
-[![Frameworks and platforms](https://skillicons.dev/icons?i=ros,flutter,pytorch,opencv,docker,linux,ubuntu,raspberrypi,git,githubactions,mysql,latex&perline=12)](https://skillicons.dev)
-
-Robotics: ArduPilot, MAVLink, ROS 2, GNSS/RTK
-
-## Away from the keyboard
-
-Skateboarding ([cysk8clips.com](https://cysk8clips.com)), early morning surf sessions, and guitar.
-
-## Contact
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-nadiotis-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nadiotis)
-[![Website](https://img.shields.io/badge/Website-pelaos--tech-111111?style=flat&logo=githubpages&logoColor=white)](https://n0711.github.io/pelaos-tech/)
-[![cysk8clips](https://img.shields.io/badge/Website-cysk8clips.com-111111?style=flat&logo=googlechrome&logoColor=white)](https://cysk8clips.com)
-
-## Support my work
-
-[![Revolut](https://img.shields.io/badge/Support-revolut.me%2Fnadiotis-0075EB?style=flat&logo=revolut&logoColor=white)](https://revolut.me/nadiotis)
+[Support my work](https://revolut.me/nadiotis)
