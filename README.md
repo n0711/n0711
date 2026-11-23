@@ -1,41 +1,44 @@
 # Charalampos Nadiotis
 
-**Robotics engineer in Cyprus · BSc Computer Science student at Frederick University**
+**What does a robot know when the radio goes quiet?**
 
-I work on how robots behave when their sensors or communication links give them incomplete information. On rovers and underwater vehicles, my work has included bringing up embedded controllers, testing motor response and calibrating underwater cameras. I plan to pursue a PhD in distributed autonomy systems. I’m especially interested in how marine robots can coordinate when they can exchange only occasional updates.
+I’m a robotics engineer in Cyprus and a computer science student at Frederick University. I’ve tested rover motors and calibrated underwater cameras. The question I want to take into a PhD in distributed autonomy systems is how marine robots can keep working together when they only hear from each other occasionally.
 
-[PELAOS Tech portfolio](https://n0711.github.io/pelaos-tech/) · [LinkedIn](https://www.linkedin.com/in/nadiotis/)
+[PELAOS Tech](https://n0711.github.io/pelaos-tech/) · [LinkedIn](https://www.linkedin.com/in/nadiotis/)
 
-## Research projects
+## Three experiments you can explore
 
-| Project | Research question | Evidence in the repository |
-| --- | --- | --- |
-| [ROS3-Limassol](https://github.com/n0711/ROS3-Limassol) | When did telemetry stop reaching the receiver, and when did it resume? | Records receiver observations and replays them offline. A [single-host ArduPilot Rover simulation](https://github.com/n0711/ROS3-Limassol/blob/main/robotics/ros3_limassol/docs/SITL.md) exercises the receiver during scripted outages. |
-| [VERA-MOT](https://github.com/n0711/vera-mot) | When can a tracker trust a vehicle’s appearance to reconnect its track after an occlusion? | The frozen BoT-SORT baseline without re-identification covers 20 UAVDT test sequences. In synthetic tests, the tracker uses crop quality to decide when to match by appearance and when to update its memory. Its effect on vehicle identity metrics on UAVDT remains open. |
-| [BSc thesis](https://github.com/n0711/bsc_thesis_2027) | How does changing one symbol affect a prompt’s score, and how well can search recover the best prompt within a fixed budget? | Across 1,200 synthetic runs, the experiments compare random search and coordinate search under equal scoring budgets. Exhaustive enumeration gives the exact optimum for each prompt length. The repository includes the XeLaTeX dissertation and reproduction commands. |
+### Replay a telemetry outage
 
-ROS3-Limassol is an experimental OpenPELAOS project. Christos Paparistodemou proposed the original idea. I lead the project and authored the paper.
+[ROS3-Limassol](https://github.com/n0711/ROS3-Limassol) records what reaches a robot’s telemetry receiver. In the [ArduPilot Rover simulation](https://github.com/n0711/ROS3-Limassol/blob/main/robotics/ros3_limassol/docs/SITL.md), you can interrupt the link, restore it, then replay the recording to see when the receiver marked the data stale and when it saw fresh telemetry again. The simulation runs on one host.
 
-## Robotics and field experience
+Christos Paparistodemou proposed the original idea. I lead this OpenPELAOS project and authored the paper.
 
-At Frederick University’s Robotics & Automation Systems Lab, I worked on rover and ROV integration, underwater imaging, data acquisition and deployment preparation. I also served as a scientific committee member and robotics competition judge for Robotex Cyprus and WRO Cyprus.
+### Follow a vehicle after it disappears from view
 
-- [USV flight-controller emulator](https://github.com/n0711/usv-sitl-flight-controller-emulator) · An ArduRover software-in-the-loop setup that lets developers exercise a telemetry interface before connecting a physical controller.
-- [MAVLink ground-station lab](https://github.com/n0711/mavlink_gcs_lab) · A receive-only Flutter and Rust prototype for inspecting live links and comparing saved ArduPilot parameters.
+In UAV footage, a tracker has to decide whether the vehicle that reappears is the same one it lost. [VERA-MOT](https://github.com/n0711/vera-mot) tests whether image quality can help it decide which views to remember. The BoT-SORT baseline without re-identification covers **20 UAVDT test sequences**. The image-quality rule has passed synthetic tests. Its effect on identity tracking in UAVDT is still an open question.
 
-## Software and community projects
+### Change one symbol in a prompt
 
-| Project | What I built |
-| --- | --- |
-| [LearnTwin](https://github.com/n0711/LearnTwin) | A browser-based workspace for tracking degree credits, assignments, thesis milestones and PhD applications, with local records and JSON backups. |
-| [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) | An offline Android tuner for string instruments. |
-| [cysk8clips](https://cysk8clips.com) | A community site documenting Cyprus skateboarding through videos, local spots and event coverage. |
-| [Skillshare-Local](https://github.com/n0711/Skillshare-Local) | A PHP marketplace connecting local instructors and learners. |
+For my [BSc thesis](https://github.com/n0711/bsc_thesis_2027), I built a synthetic scoring problem small enough to try every possible prompt. That gives me the exact best score for each prompt length. Across **1,200 synthetic runs**, I measured how close random search and coordinate search could get with the same number of guesses.
+
+## On the robotics bench
+
+At Frederick University’s Robotics & Automation Systems Lab, I worked on rover and underwater vehicle integration, imaging, data acquisition and deployment preparation. Two projects you can try at a desk are the [USV flight-controller emulator](https://github.com/n0711/usv-sitl-flight-controller-emulator) for exercising telemetry in ArduRover simulation and the [MAVLink ground-station lab](https://github.com/n0711/mavlink_gcs_lab) for inspecting incoming messages and comparing saved parameters.
+
+## Away from the bench
+
+I play guitar, skateboard and surf. Two of those interests have their own projects here.
+
+- [RioTuner](https://n0711.github.io/pelaos-tech/riotuner/) is my offline Android tuner for string instruments.
+- [cysk8clips](https://cysk8clips.com) documents Cyprus skateboarding through local spots, video parts and event coverage.
+- [LearnTwin](https://github.com/n0711/LearnTwin) keeps degree credits, assignments and thesis milestones in one place.
+- [Skillshare-Local](https://github.com/n0711/Skillshare-Local) connects local instructors and learners.
+
+I’ve also served on scientific committees and judged robotics competitions for Robotex Cyprus and WRO Cyprus.
 
 ## Work with me
 
-Through [PELAOS Tech](https://n0711.github.io/pelaos-tech/), I build websites, software and automations. For a project enquiry or a research collaboration, [message me on LinkedIn](https://www.linkedin.com/in/nadiotis/) with what you’re working on.
-
-Outside engineering, I skateboard, surf and play guitar.
+I build websites, software and automations through PELAOS Tech. If you have a software project in mind or you’re researching how robots coordinate over unreliable links, I’d like to hear what you’re working on. [Message me on LinkedIn](https://www.linkedin.com/in/nadiotis/)
 
 [Support my work](https://revolut.me/nadiotis)
